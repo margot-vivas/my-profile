@@ -1,0 +1,167 @@
+/* Style général */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Couleur de fond générale */
+    min-height: 100vh; /* Hauteur minimale du corps */
+}
+
+/* Container centré avec une largeur définie */
+.container {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto; /* Centre horizontalement */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style des sections */
+.section {
+    margin: 20px 0; /* Espace entre les sections */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+}
+
+/* Style de la section Header */
+.header h1 {
+    font-size: 1.8em;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style des boutons */
+.link-btn, .btn-blue {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.link-btn:hover, .btn-blue:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+/* Style pour les centres d’intérêt */
+.interests {
+    text-align: center; /* Centre le texte dans cette section */
+    margin-top: 20px; /* Ajoute un espacement au-dessus de la section des intérêts */
+}
+
+.interests h2 {
+    color: #444444;
+    margin-bottom: 15px; /* Ajoute un espacement entre le titre et les intérêts */
+}
+
+.interest {
+    width: 80%; /* Largeur relative pour s'assurer qu'il n'est pas trop large */
+    max-width: 300px; /* Largeur maximum pour garder les éléments petits */
+    padding: 10px; /* Réduit le padding interne */
+    background-color: #eaf3ff;
+    border-radius: 6px;
+    margin: 10px auto; /* Centre horizontalement et ajoute un espacement vertical */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    text-align: center; /* Centre le texte à l'intérieur de chaque intérêt */
+}
+
+.interest h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+/* Style pour le conteneur des réseaux sociaux */
+.social-container {
+    max-width: 600px; /* Largeur maximale pour le conteneur */
+    margin: 20px auto; /* Centre le conteneur sur la page */
+    padding: 20px; /* Ajoute un espacement interne */
+    background-color: #fafafa; /* Couleur de fond du rectangle */
+    border-radius: 8px; /* Arrondi des coins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Style pour le conteneur des réseaux sociaux */
+.social-container {
+    max-width: 600px; /* Largeur maximale pour le conteneur */
+    margin: 20px auto; /* Centre le conteneur sur la page */
+    padding: 20px; /* Ajoute un espacement interne */
+    background-color: #fafafa; /* Couleur de fond du rectangle */
+    border-radius: 8px; /* Arrondi des coins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Style pour le conteneur des réseaux sociaux */
+.social-container {
+    max-width: 600px; /* Largeur maximale pour le conteneur */
+    margin: 20px auto; /* Centre le conteneur sur la page */
+    padding: 20px; /* Ajoute un espacement interne */
+    background-color: #fafafa; /* Couleur de fond du rectangle */
+    border-radius: 8px; /* Arrondi des coins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Style pour le conteneur des réseaux sociaux */
+.social-container {
+    max-width: 600px; /* Largeur maximale pour le conteneur */
+    margin: 20px auto; /* Centre le conteneur sur la page */
+    padding: 20px; /* Ajoute un espacement interne */
+    background-color: #fafafa; /* Couleur de fond du rectangle */
+    border-radius: 8px; /* Arrondi des coins */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Style pour les liens sociaux */
+.social-links {
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+    justify-content: center; /* Centre les liens */
+    gap: 15px; /* Ajoute un espace entre les boutons */
+    margin-top: 10px; /* Espacement au-dessus des icônes */
+}
+
+.social-btn {
+    display: flex; /* Utilise Flexbox pour centrer le contenu */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    width: 60px; /* Largeur du bouton (en carré) */
+    height: 60px; /* Hauteur du bouton (en carré) */
+    color: #ffffff; /* Couleur de l'icône */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    border-radius: 8px; /* Arrondi des coins (pour un carré) */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: background-color 0.3s ease; /* Ajoute une transition douce */
+}
+
+.social-btn:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+.social-btn i {
+    font-size: 24px; /* Taille de l'icône, ajustez si nécessaire */
+}
+
+}
